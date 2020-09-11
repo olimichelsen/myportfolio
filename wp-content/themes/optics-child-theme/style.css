@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Optics Child
+ Theme URI:    http://portfolio.olimichelsen.dk/optics-child-theme/
+ Description:  Optics Child Theme based on the parent theme Optics
+ Author:       Oliver Michelsen
+ Author URI:   http://portfolio.olimichelsen.dk/
+ Template:     optics
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  opticschild
+*/
+
+body {
+  background-color: #9f93ad;
+}
