@@ -5,7 +5,7 @@
  Author:       Oliver Michelsen
  Author URI:   http://portfolio.olimichelsen.dk/
  Template:     optics
- Version:      1.0.3
+ Version:      1.0.4
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -19,7 +19,11 @@ body {
 .site-content .content-area {
     width: 100%;
 }
-/*
-.site-header {
-    position: fixed;
+
+/* fixed header only for laptop/ipad sizes */
+@media only screen and (min-width: 800px) {
+
+    .site-header {
+        position: fixed;
+    }
 }
