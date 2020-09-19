@@ -29,3 +29,5 @@ add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 if ( function_exists( 'the_custom_logo' ) ) {
  the_custom_logo();
 }
+
+
